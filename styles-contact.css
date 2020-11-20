@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/lg_background.jpg)
+  background: url(images/marble_bg.jpg)
       center center fixed no-repeat;
     background-size: cover;
 	
@@ -73,35 +73,35 @@ html, body {
     margin: 100px auto;
  	background: none (0, 150, 178,.75); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px none;
+	border: 2px none;
 }
 
    
 #logo {
-    margin-bottom: 16px;
+    margin-bottom: 50px;
 	border: none;
 	text-align: center;
 }
 
 h1 {
-	font-family:  bounce-script;
+	font-family: hero-new;
     font-weight: 400;
     font-style: normal;
 	font-size: 3em;
     margin: 0px auto 10px auto;
     color: black;
-    border: 3px double white;
+    border: none;
 }
 
 h2 {
-    font-family: fino-sans, serif;
+    font-family: courier-std, monospace;
     font-weight: 400;
     font-style: normal;
-	font-size: 1.5em;
+	font-size: 1.2em;
     line-height: 1.4;
     color: black;
     padding: 0px 0px;
-    margin: 0px auto 25px auto;
+    margin: 50px 50px 100px 50px;
 }
 
 p {
@@ -112,14 +112,15 @@ p {
 }
     
 nav{
-    font-family: courier; 
-    font-size: 1.4em;
+    font-family: courier-std, monospace;
+    font-size: 1.2em;
     width: 400px;
     margin: 0 auto;
-    border: double white;
-    border-width: 3px 0;
+    border: double #ffdab9;
+    border-width: 7px 0;
     text-align: center;
-    margin-top: 2em;   
+    margin-top: 2em; 
+    letter-spacing: 1px  
     }
 
 nav li{
@@ -137,7 +138,7 @@ a{
     font-weight: bold;
     }
 a:hover{
-    color: turquoise;
-    background: white;
+    color: white;
+    background: #ffdab9;
     
 }
